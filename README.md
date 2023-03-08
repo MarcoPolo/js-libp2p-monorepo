@@ -12,10 +12,10 @@ This happens nightly in CI
 
 Push changes to a branch on the original Repo
 ```
-git subtree push --prefix=.vim/bundle/tpope-vim-surround/ https://github.com/libp2p/js-libp2p-mdns.git <your-branch-name>
+git subtree push --prefix=protocols/mdns https://github.com/libp2p/js-libp2p-mdns.git <your-branch-name>
 ```
 
 Alternatively to push the changes to your fork:
 ```
-git subtree push --prefix=.vim/bundle/tpope-vim-surround/ https://github.com/<your-fork>/js-libp2p-mdns.git <your-branch-name>
+git subtree push --prefix=protocols/mdns https://github.com/<your-fork>/js-libp2p-mdns.git <your-branch-name>
 ```
