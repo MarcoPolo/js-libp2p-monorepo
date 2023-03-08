@@ -19,42 +19,42 @@ git subtree add --prefix util/metrics https://github.com/libp2p/js-libp2p-metric
 
 
 // Muxers
-libp2p/js-libp2p-mplex
-ChainSafe/js-libp2p-yamux
+git subtree add --prefix muxers/mplex https://github.com/libp2p/js-libp2p-mplex master --squash
+git subtree add --prefix muxers/yamux https://github.com/ChainSafe/js-libp2p-yamux master --squash
 
 // Protocols
-libp2p/js-libp2p-kad-dht
-libp2p/js-libp2p-multistream-select
-libp2p/js-libp2p-floodsub
-libp2p/js-libp2p-delegated-content-routing
-libp2p/js-libp2p-relay-server
-libp2p/js-libp2p-rendezvous
-ChainSafe/js-libp2p-gossipsub
+git subtree add --prefix  protocols/kad https://github.com/libp2p/js-libp2p-kad-dht  master --squash
+git subtree add --prefix  protocols/multistream-select https://github.com/libp2p/js-libp2p-multistream-select master --squash
+git subtree add --prefix  protocols/floodsub https://github.com/libp2p/js-libp2p-floodsub master --squash
+git subtree add --prefix  protocols/delegated-content-routing https://github.com/libp2p/js-libp2p-delegated-content-routing master --squash
+git subtree add --prefix  protocols/relay-server https://github.com/libp2p/js-libp2p-relay-server master --squash
+git subtree add --prefix  protocols/rendezvous https://github.com/libp2p/js-libp2p-rendezvous master --squash
+git subtree add --prefix  protocols/gossipsub https://github.com/ChainSafe/js-libp2p-gossipsub master --squash
 
 // Core
-libp2p/js-libp2p-pubsub
-libp2p/js-libp2p-peer-id
-libp2p/js-libp2p-crypto
-libp2p/js-libp2p-peer-store
+git subtree add --prefix core/pubsub     https://github.com/libp2p/js-libp2p-pubsub   master --squash
+git subtree add --prefix core/peer-id    https://github.com/libp2p/js-libp2p-peer-id  master --squash
+git subtree add --prefix core/crypto     https://github.com/libp2p/js-libp2p-crypto   master --squash
+git subtree add --prefix core/peer-store https://github.com/libp2p/js-libp2p-peer-store  master --squash
 
 // Util
-libp2p/js-libp2p-pubsub-peer-discovery
-libp2p/js-libp2p-topology
-libp2p/js-libp2p-logger
-libp2p/js-libp2p-record
-libp2p/js-libp2p-utils
-libp2p/js-libp2p-cms
-libp2p/js-libp2p-daemon
-libp2p/js-libp2p-bootstrap
-libp2p/js-libp2p-tracked-map
-libp2p/js-libp2p-keychain
-libp2p/js-libp2p-peer-record
+git subtree add --prefix util/pubsub-peer-discovery https://github.com/libp2p/js-libp2p-pubsub-peer-discovery master --squash
+git subtree add --prefix util/topology              https://github.com/libp2p/js-libp2p-topology    master --squash
+git subtree add --prefix util/logger                https://github.com/libp2p/js-libp2p-logger      master --squash
+git subtree add --prefix util/record                https://github.com/libp2p/js-libp2p-record      master --squash
+git subtree add --prefix util/utils                 https://github.com/libp2p/js-libp2p-utils       master --squash
+git subtree add --prefix util/cms                   https://github.com/libp2p/js-libp2p-cms         master --squash
+git subtree add --prefix util/daemon                https://github.com/libp2p/js-libp2p-daemon      master --squash
+git subtree add --prefix util/bootstrap             https://github.com/libp2p/js-libp2p-bootstrap   master --squash
+git subtree add --prefix util/tracked-map           https://github.com/libp2p/js-libp2p-tracked-map master --squash
+git subtree add --prefix util/keychain              https://github.com/libp2p/js-libp2p-keychain    master --squash
+git subtree add --prefix util/peer-record           https://github.com/libp2p/js-libp2p-peer-record master --squash
 
 // Transports
-libp2p/js-libp2p-tcp
+git subtree add --prefix transports/tcp https://github.com/libp2p/js-libp2p-tcp  master --squash
 
 // Secure Channels
-ChainSafe/js-libp2p-noise
+git subtree add --prefix secure-channels/noise https://github.com/ChainSafe/js-libp2p-noise master --squash
  ```
 
 // Archive?
