@@ -12,6 +12,8 @@ jobs:
       - uses: actions/checkout@v2
       - name: debug
         run: ls
+      - name: Update subtree repo
+        run: git subtree pull -d --prefix core/pubsub     https://github.com/libp2p/js-libp2p-pubsub   master --squash
       - name: Update subtree repos
         run: ./update-repos.sh
       - name: Setup git config
