@@ -10,10 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: debug
-        run: ls
-      - name: Update subtree repo
-        run: git subtree pull -d --prefix core/pubsub     https://github.com/libp2p/js-libp2p-pubsub   master --squash
+        with:
+          # Need to fetch all the history for the subtree commands to work
+          fetch-depth: 0
       - name: Update subtree repos
         run: ./update-repos.sh
       - name: Setup git config
