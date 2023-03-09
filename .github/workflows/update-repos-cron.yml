@@ -21,4 +21,4 @@ jobs:
       - name: Update subtree repos
         run: ./update-repos.sh
       - name: Commit
-        run: git push origin master
+        run: git push origin main
