@@ -1,6 +1,6 @@
 {
   "name": "@libp2p/peer-id-factory",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Create PeerId instances",
   "license": "Apache-2.0 OR MIT",
   "homepage": "https://github.com/libp2p/js-libp2p-peer-id/tree/master/packages/libp2p-peer-id-factory#readme",
@@ -147,13 +147,13 @@
     "@libp2p/interface-peer-id": "^2.0.0",
     "@libp2p/peer-id": "^2.0.0",
     "multiformats": "^11.0.0",
-    "protons-runtime": "^4.0.1",
+    "protons-runtime": "^5.0.0",
     "uint8arraylist": "^2.0.0",
     "uint8arrays": "^4.0.2"
   },
   "devDependencies": {
     "aegir": "^38.1.0",
-    "protons": "^6.0.0",
+    "protons": "^7.0.2",
     "util": "^0.12.4"
   },
   "typedoc": {
